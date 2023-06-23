@@ -16,6 +16,11 @@ Crie o Arquivo .env
 cp .env.example .env
 ```
 
+Acesse o projeto
+```sh
+code .
+```
+
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
