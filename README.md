@@ -73,5 +73,11 @@ Rode a migration com as seeders
 php artisan migrate --seed
 ```
 
-Acesse o projeto
-[http://localhost:8955](http://localhost:8955)
+Acesse o projeto via postman ou outro serviços de api
+```sh
+rota de login: http://localhost:8955/api/v1/auth/login
+
+rota do crud: http://localhost:8955/api/v1/books
+
+roda do logout: http://localhost:8955/api/v1/auth/logout
+```
