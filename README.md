@@ -81,3 +81,6 @@ rota do crud: http://localhost:8955/api/v1/books
 
 roda do logout: http://localhost:8955/api/v1/auth/logout
 ```
+
+Para acessar os usuarios para login, ele estara dentro das seeders
+
