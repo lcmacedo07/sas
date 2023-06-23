@@ -13,7 +13,6 @@ cd sas/
 
 Crie o Arquivo .env
 ```sh
-cd sas/
 cp .env.example .env
 ```
 
