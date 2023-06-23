@@ -4,29 +4,29 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/lcmacedo07/overdrive
+git clone https://github.com/lcmacedo07/sas.git
 ```
 
 ```sh
-cd overdrive/
+cd sas/
 ```
 
 Crie o Arquivo .env
 ```sh
-cd overdrive/
+cd sas/
 cp .env.example .env
 ```
 
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME=overdrive
+APP_NAME=sas
 APP_URL=http://localhost:8955
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=overdrive
+DB_DATABASE=sas
 DB_USERNAME=root
 DB_PASSWORD=root
 
@@ -38,7 +38,6 @@ REDIS_HOST=redis
 REDIS_PASSWORD=null
 REDIS_PORT=6379
 
-L5_SWAGGER_GENERATE_ALWAYS=true
 ```
 
 
@@ -65,9 +64,9 @@ Gerar a key do projeto Laravel
 php artisan key:generate
 ```
 
-Acessar a documentação do Swagger
+Rode a migration com as seeders
 ```sh
-http://localhost:8955/api/documentation
+php artisan migrate --seed
 ```
 
 Acesse o projeto
